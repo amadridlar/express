@@ -2,19 +2,22 @@
   "name": "express-course",
   "version": "0.0.1",
   "description": "begining express course",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon -L index.js"
+    "dev":"nodemon -L src/app.js",
+    "start": "node src/app.js"
   },
   "author": "amadridlar",
   "license": "ISC",
   "dependencies": {
-    "morgan": "~1.9.1",
+    "body-parser": "~1.18.3",
     "colors": "~1.3.3",
-    "ejs": "^2.6.1",
-    "express": "~4.16.4"
+    "ejs": "~2.6.1",
+    "express": "~4.16.4",
+    "mongoose": "~5.4.19",
+    "morgan": "~1.9.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "~1.18.10"
   }
 }
