@@ -6,7 +6,7 @@ npm express
 npm i morgan #print logs in console
 npm i colors #shoy colors in console
 npm i ejs #view template
-npm i -D nodemon #autorefresh server when a change is added in the code
+npm i -D nodemon #autorefresh server when a change is made in the code
 ```
 
 ## Start the server
