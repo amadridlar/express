@@ -10,7 +10,7 @@ router.all('/createUser', (req, res, next) => {
 router.post ('/createUser', (req, res) => {
     console.log(req.body);
     res.set('Content-Type', 'application/json'); //set header value
-    res.send('{"":"OK","request":"POST"}');
+    res.send('{"Status":"OK","request":"POST"}');
 });
 
 router.put ('/createUser', (req, res) => {

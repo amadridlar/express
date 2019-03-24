@@ -9,7 +9,7 @@ const server = express();
 //CONFIGURATION
 server.set('serverName', 'My express server'); 
 server.set('port', 3000);
-server.set('views', __dirname +'/views'); //view template folder
+server.set('views','views'); //view template folder
 server.set('view engine', 'ejs'); //type of view template
 
 //MIDDLEWARES
