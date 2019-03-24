@@ -1,16 +1,23 @@
 # Express-course
 
 ## Dependencies used in this project
-```bash
-npm express
-npm i morgan #print logs in console
-npm i colors #shoy colors in console
-npm i ejs #view template
-npm i -D nodemon #autorefresh server when a change is made in the code
+```express```
+
+```morgan```   print logs in console
+
+```colors``` show colors in console
+
+```ejs``` view template
+
+```nodemon``` autorefresh server when a change is made in the code
+
+## Start the server in develop mode
+``` bash
+npm run dev
 ```
 
-## Start the server
-``` bash
+## Start the server in production
+```bash
 npm start
 ```
 
