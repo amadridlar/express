@@ -3,6 +3,10 @@
 ## Dependencies used in this project
 ```express```
 
+```mongoose``` manage connections with mongodb
+
+```body-parser``` convert response data to json
+
 ```morgan```   print logs in console
 
 ```colors``` show colors in console
