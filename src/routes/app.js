@@ -2,7 +2,7 @@ require('colors');
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const routes = require('./router.js');
+const routes = require('../router.js');
 const apiRouter = require('./api-router.js');
 
 const app = express();
@@ -18,7 +18,7 @@ app.use(morgan('dev')); //show request info in console
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-//routes
+//ROUTES
 app.use(routes); //use request path as a middelware
 app.use(apiRouter);
 
